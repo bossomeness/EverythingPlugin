@@ -1,0 +1,9 @@
+main: com.bossomeness.everything.in.one.plugin.Everything
+name: EverythingPlugin
+version: 0.1
+description: everything in one plugin!
+commands:
+    heal:
+        description: heal a player
+    fire:
+        description: set a player on fire
