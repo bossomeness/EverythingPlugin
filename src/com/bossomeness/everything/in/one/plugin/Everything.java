@@ -70,7 +70,7 @@ public class Everything extends JavaPlugin {
 						player.sendMessage(ChatColor.DARK_RED + "You have been set on fire!");
 					}
 				}if (player.getServer().getPlayer(args[0]) != null) {
-					if (sender.hasPermission(new Permissions().heal)) {
+					if (sender.hasPermission(new Permissions().fire)) {
 						Player targetPlayer = player.getServer().getPlayer(
 								args[0]);
 						targetPlayer.setFireTicks(Integer.parseInt(args[1]));
